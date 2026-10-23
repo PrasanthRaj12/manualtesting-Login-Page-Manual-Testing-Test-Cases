@@ -1,0 +1,8 @@
+﻿Defect ID,Module,Title,Severity,Priority,Environment,Steps to Reproduce,Actual Result,Expected Result,Status,Retest Status,Notes
+BUG-001,Login,Error message not displayed for invalid password,Medium,High,Example only — verify before using,"1. Open login page
+2. Enter a known test username and incorrect dummy password
+3. Click Login",Application displays no clear error and leaves the user unsure whether the attempt failed,"Application should display a clear, accessible error and deny access",Not Run,Not Run,Not a verified defect; sample template only
+BUG-002,Login,Password is visible as plain text by default,High,Medium,Example only — verify before using,"1. Open login page
+2. Type a dummy password",Password characters are visible without user action,Password should be masked by default,Not Run,Not Run,Not a verified defect; sample template only
+BUG-003,Forgot Password,Forgot Password link does not navigate,Medium,Medium,Example only — verify before using,"1. Open login page
+2. Click Forgot Password",No navigation or recovery flow is shown,The link should open the expected recovery flow,Not Run,Not Run,Not a verified defect; sample template only
